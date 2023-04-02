@@ -1,0 +1,30 @@
+
+.UImessage{
+    width: 60%;
+}
+
+.chatmessage{
+    width: 95%;
+    height: 80vh;
+    margin: auto;
+    border: 2px solid black;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.clientmessage{
+    /* float: left; */
+    text-align: left;
+    clear: both;
+    background-color: rgba(128, 128, 128, 0.107);
+    padding: 4px 10px;
+}
+
+.servermessage{
+    /* float: right; */
+    text-align: right;
+    clear: both;
+    background-color: rgba(128, 128, 128, 0.377);
+    padding: 4px 10px;
+}
