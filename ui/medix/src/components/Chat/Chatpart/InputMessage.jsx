@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import style from './InputMessage.module.css'
+import Dictaphone from './Dictaphone'
 function InputMessage(props) {
     const {messageget} = props
     const [newMessage,updateNewMessage] = useState("")
 
     return (
         <div className={style.UIInputMessage}>
+            <Dictaphone updateMessageMic = {(msg)=>{updateNewMessage(msg)}} />
             <div className={style.Inputmessage}>
                 <textarea name="" id="" value={newMessage} onChange={(e)=>{updateNewMessage(e.target.value)}}></textarea>
             </div>
