@@ -1,0 +1,52 @@
+
+.UImessage{
+    width: 60%;
+}
+
+.chatmessage{
+    width: 95%;
+    height: 70vh;
+    border: 2px solid black;
+    overflow: auto;
+    text-decoration: none;
+    margin: 6px;
+    display: block;
+    color: #1d1d1d;
+    background-color: #e3e1e1;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(45, 67, 211, 0.4);
+    
+    
+  
+}
+
+.clientmessage{
+    /* float: left; */
+    text-align: left;
+    flex: 1;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.65);
+    position: relative;
+    border-radius: 10px;
+    font: 1em/1.6 "arial";
+    clear: both;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.35);
+    
+    
+}
+
+.servermessage{
+    /* float: right; */
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0.377);
+    position: relative;
+    border-radius: 10px;
+    font: 1em/1.6 "arial";
+    clear: both;
+    text-shadow: 1px 1px 0 rgba(128, 128, 128, 0.377);
+}
